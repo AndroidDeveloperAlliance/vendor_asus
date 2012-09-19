@@ -24,13 +24,7 @@
 PRODUCT_COPY_FILES += \
     vendor/asus/tf101/proprietary/bin/sensors-config:system/bin/sensors-config \
     vendor/asus/tf101/proprietary/bin/glgps:system/bin/glgps \
-    vendor/asus/tf101/proprietary/bin/pppd_btdun:system/bin/pppd_btdun \
-    vendor/asus/tf101/proprietary/bin/wifimacwriter:system/bin/wifimacwriter \
-    vendor/asus/tf101/proprietary/data/srs_processing.cfg:system/data/srs_processing.cfg \
     vendor/asus/tf101/proprietary/etc/asound.conf:system/etc/asound.conf \
-    vendor/asus/tf101/proprietary/etc/BtService.sh:system/etc/BtService.sh \
-    vendor/asus/tf101/proprietary/etc/bluetooth/bdaddr:system/etc/bluetooth/bdaddr \
-    vendor/asus/tf101/proprietary/etc/bluetooth/main.conf:system/etc/bluetooth/main.conf \
     vendor/asus/tf101/proprietary/etc/firmware/nvmm_aacdec.axf:system/etc/firmware/nvmm_aacdec.axf \
     vendor/asus/tf101/proprietary/etc/firmware/nvmm_adtsdec.axf:system/etc/firmware/nvmm_adtsdec.axf \
     vendor/asus/tf101/proprietary/etc/firmware/nvmm_h264dec.axf:system/etc/firmware/nvmm_h264dec.axf \
@@ -54,8 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf101/proprietary/lib/egl/libEGL_perfhud.so:system/lib/egl/libEGL_perfhud.so \
     vendor/asus/tf101/proprietary/lib/egl/libGLESv1_CM_perfhud.so:system/lib/egl/libGLESv1_CM_perfhud.so \
     vendor/asus/tf101/proprietary/lib/egl/libGLESv2_perfhud.so:system/lib/egl/libGLESv2_perfhud.so \
-    vendor/asus/tf101/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
-    vendor/asus/tf101/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
     vendor/asus/tf101/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
     vendor/asus/tf101/proprietary/lib/hw/gps.ventana.so:system/lib/hw/gps.ventana.so \
     vendor/asus/tf101/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
@@ -117,7 +109,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf101/proprietary/lib/libnvtvmr.so:system/lib/libnvtvmr.so \
     vendor/asus/tf101/proprietary/lib/libnvwinsys.so:system/lib/libnvwinsys.so \
     vendor/asus/tf101/proprietary/lib/libnvwsi.so:system/lib/libnvwsi.so \
-    vendor/asus/tf101/proprietary/lib/libshapewriter.so:system/lib/libshapewriter.so \
     vendor/asus/tf101/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/asus/tf101/proprietary/lib/libsensors.al3000a.so:system/lib/libsensors.al3000a.so \
     vendor/asus/tf101/proprietary/lib/libsensors.isl29018.so:system/lib/libsensors.isl29018.so \
@@ -138,5 +129,5 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf101/proprietary/usr/share/alsa/pcm/surround40.conf:system/usr/share/alsa/pcm/surround40.conf \
     vendor/asus/tf101/proprietary/usr/share/alsa/pcm/surround41.conf:system/usr/share/alsa/pcm/surround41.conf \
     vendor/asus/tf101/proprietary/usr/share/alsa/pcm/surround50.conf:system/usr/share/alsa/pcm/surround50.conf \
-    vendor/asus/tf101/proprietary/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
-    vendor/asus/tf101/proprietary/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf \
+    vendor/asus/tf101/proprietary/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf
+    vendor/asus/tf101/proprietary/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf
